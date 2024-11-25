@@ -94,5 +94,8 @@ def validate_email(email):
 while True:
     email = input("Your email address: ")
 
+    if email == "":
+        break
+    
     if validate_email(email):
         break
